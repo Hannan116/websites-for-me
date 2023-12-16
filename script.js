@@ -59,3 +59,9 @@ document.querySelector("#aiyou").addEventListener("click", function () {
 document.querySelector("#sofascore").addEventListener("click", function () {
   window.open("https://www.sofascore.com/", "_blank");
 });
+document.querySelector("#chatgpt").addEventListener("click", function () {
+  window.open("https://chat.openai.com/", "_blank");
+});
+document.querySelector("#netflix").addEventListener("click", function () {
+  window.open("https://www.netflix.com/browse", "_blank");
+});
