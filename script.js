@@ -65,3 +65,9 @@ document.querySelector("#chatgpt").addEventListener("click", function () {
 document.querySelector("#netflix").addEventListener("click", function () {
   window.open("https://www.netflix.com/browse", "_blank");
 });
+document.querySelector("#x").addEventListener("click", function () {
+  window.open("https://twitter.com/home", "_blank");
+});
+document.querySelector("#facebook").addEventListener("click", function () {
+  window.open("https://www.facebook.com/", "_blank");
+});
