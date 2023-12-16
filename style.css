@@ -1,0 +1,21 @@
+button {
+    margin:0;
+    border: none;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 1rem;
+    color: black;
+    background: #05BFDB;
+    margin: .7rem .3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 145px;
+    transition-delay: .3ms; 
+}
+button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05); 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
