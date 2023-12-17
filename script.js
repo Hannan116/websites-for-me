@@ -71,3 +71,6 @@ document.querySelector("#x").addEventListener("click", function () {
 document.querySelector("#facebook").addEventListener("click", function () {
   window.open("https://www.facebook.com/", "_blank");
 });
+document.querySelector("#upension").addEventListener("click", function () {
+  window.open("https://upension.gov.bd/Pensioner/Index", "_blank");
+});
