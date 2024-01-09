@@ -74,3 +74,12 @@ document.querySelector("#facebook").addEventListener("click", function () {
 document.querySelector("#upension").addEventListener("click", function () {
   window.open("https://upension.gov.bd/Pensioner/Index", "_blank");
 });
+document.querySelector("#github").addEventListener("click", function () {
+  window.open("https://github.com/", "_blank");
+});
+document.querySelector("#netlify").addEventListener("click", function () {
+  window.open("https://app.netlify.com/teams/md-abdulhannan116/sites", "_blank");
+});
+document.querySelector("#medium").addEventListener("click", function () {
+  window.open("https://medium.com/", "_blank");
+});
