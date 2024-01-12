@@ -47,6 +47,13 @@ document.querySelector("#fileconverter").addEventListener("click", function () {
 document.querySelector("#drawdiagram").addEventListener("click", function () {
   window.open("https://www.drawio.com/", "_blank");
 });
+document.querySelector("#removebg").addEventListener("click", function () {
+  window.open("https://www.remove.bg//", "_blank");
+});
+document.querySelector("#tldraw").addEventListener("click", function () {
+  window.open("https://makereal.tldraw.com/", "_blank");
+});
+
 document.querySelector("#printfriendly").addEventListener("click", function () {
   window.open("https://www.printfriendly.com/", "_blank");
 });
@@ -78,8 +85,34 @@ document.querySelector("#github").addEventListener("click", function () {
   window.open("https://github.com/", "_blank");
 });
 document.querySelector("#netlify").addEventListener("click", function () {
-  window.open("https://app.netlify.com/teams/md-abdulhannan116/sites", "_blank");
+  window.open(
+    "https://app.netlify.com/teams/md-abdulhannan116/sites",
+    "_blank"
+  );
 });
 document.querySelector("#medium").addEventListener("click", function () {
   window.open("https://medium.com/", "_blank");
+});
+document.querySelector("#clnpic").addEventListener("click", function () {
+  window.open("https://cleanup.pictures/", "_blank");
+});
+document.querySelector("#logoai").addEventListener("click", function () {
+  window.open("https://www.logoai.com/", "_blank");
+});
+document.querySelector("#editphoto").addEventListener("click", function () {
+  window.open("https://edit.photo/", "_blank");
+});
+document.querySelector("#imgeditor").addEventListener("click", function () {
+  window.open("https://imageonline.co/", "_blank");
+});
+document.querySelector("#chatpdf").addEventListener("click", function () {
+  window.open("https://www.chatpdf.com/", "_blank");
+});
+document.querySelector("#googledrive").addEventListener("click", function () {
+  window.open("https://drive.google.com/drive/u/1/home", "_blank");
+});
+
+document.querySelector("#tbs").addEventListener("click", function () {
+  window.open("https://www.tbsnews.net/", "_blank");
+
 });
