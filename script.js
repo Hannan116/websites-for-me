@@ -116,3 +116,7 @@ document.querySelector("#tbs").addEventListener("click", function () {
   window.open("https://www.tbsnews.net/", "_blank");
 
 });
+document.querySelector("#notion").addEventListener("click", function () {
+  window.open("https://www.notion.so/Home-0a31aab3092d41dd9a54dfeeadf9208f", "_blank");
+
+});
