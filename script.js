@@ -23,14 +23,14 @@ document.querySelector("#dailystar").addEventListener("click", function () {
 document.querySelector("#manabzamin").addEventListener("click", function () {
   window.open("https://mzamin.com/", "_blank");
 });
-document.querySelector("#gtcl").addEventListener("click", function () {
-  window.open("https://gtcl.org.bd/", "_blank");
+document.querySelector("#nbr").addEventListener("click", function () {
+  window.open("https://nbr.gov.bd/", "_blank");
 });
-document.querySelector("#pb").addEventListener("click", function () {
-  window.open("http://petrobangla.org.bd/", "_blank");
+document.querySelector("#mopa").addEventListener("click", function () {
+  window.open("https://mopa.gov.bd/", "_blank");
 });
-document.querySelector("#emrd").addEventListener("click", function () {
-  window.open("https://emrd.gov.bd/", "_blank");
+document.querySelector("#dnothi").addEventListener("click", function () {
+  window.open("https://n-doptor-accounts.nothi.gov.bd/v2/login?referer=aHR0cHM6Ly9kLm5vdGhpLmdvdi5iZC9sb2dpbl9yZXNwb25zZT9yZWRpcmVjdD1kYXNoYm9hcmQ=", "_blank");
 });
 document.querySelector("#enothi").addEventListener("click", function () {
   window.open("https://nothi.gov.bd/login", "_blank");
@@ -118,5 +118,17 @@ document.querySelector("#tbs").addEventListener("click", function () {
 });
 document.querySelector("#notion").addEventListener("click", function () {
   window.open("https://www.notion.so/Home-0a31aab3092d41dd9a54dfeeadf9208f", "_blank");
+
+});
+document.querySelector("#bbc").addEventListener("click", function () {
+  window.open("https://www.bbc.com/bengali", "_blank");
+
+});
+document.querySelector("#quran").addEventListener("click", function () {
+  window.open("https://quran.com/", "_blank");
+
+});
+document.querySelector("#kgl").addEventListener("click", function () {
+  window.open("https://www.kaggle.com/", "_blank");
 
 });
