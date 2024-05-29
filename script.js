@@ -30,7 +30,10 @@ document.querySelector("#mopa").addEventListener("click", function () {
   window.open("https://mopa.gov.bd/", "_blank");
 });
 document.querySelector("#dnothi").addEventListener("click", function () {
-  window.open("https://n-doptor-accounts.nothi.gov.bd/v2/login?referer=aHR0cHM6Ly9kLm5vdGhpLmdvdi5iZC9sb2dpbl9yZXNwb25zZT9yZWRpcmVjdD1kYXNoYm9hcmQ=", "_blank");
+  window.open(
+    "https://n-doptor-accounts.nothi.gov.bd/v2/login?referer=aHR0cHM6Ly9kLm5vdGhpLmdvdi5iZC9sb2dpbl9yZXNwb25zZT9yZWRpcmVjdD1kYXNoYm9hcmQ=",
+    "_blank"
+  );
 });
 document.querySelector("#enothi").addEventListener("click", function () {
   window.open("https://nothi.gov.bd/login", "_blank");
@@ -114,25 +117,22 @@ document.querySelector("#googledrive").addEventListener("click", function () {
 
 document.querySelector("#tbs").addEventListener("click", function () {
   window.open("https://www.tbsnews.net/", "_blank");
-
 });
 document.querySelector("#notion").addEventListener("click", function () {
-  window.open("https://www.notion.so/Home-0a31aab3092d41dd9a54dfeeadf9208f", "_blank");
-
+  window.open(
+    "https://www.notion.so/Home-0a31aab3092d41dd9a54dfeeadf9208f",
+    "_blank"
+  );
 });
 document.querySelector("#bbc").addEventListener("click", function () {
   window.open("https://www.bbc.com/bengali", "_blank");
-
 });
 document.querySelector("#quran").addEventListener("click", function () {
   window.open("https://quran.com/", "_blank");
-
 });
 document.querySelector("#kgl").addEventListener("click", function () {
   window.open("https://www.kaggle.com/", "_blank");
-
 });
-document.querySelector("#ibas+").addEventListener("click", function () {
-  window.open("https://ibas.finance.gov.bd/ibas2/Security/Login?ReturnUrl=%2fibas2%2fIntegrated_Budget_and_Accounting_System", "_blank");
-
+document.querySelector("#ibas").addEventListener("click", function () {
+  window.open("https://ibas.finance.gov.bd/ibas2/security/login?returnurl=%2Fibas2%2FIntegrated_Budget_and_Accounting_System", "_blank");
 });
