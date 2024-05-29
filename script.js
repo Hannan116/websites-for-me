@@ -132,3 +132,7 @@ document.querySelector("#kgl").addEventListener("click", function () {
   window.open("https://www.kaggle.com/", "_blank");
 
 });
+document.querySelector("#ibas+").addEventListener("click", function () {
+  window.open("https://ibas.finance.gov.bd/ibas2/Security/Login?ReturnUrl=%2fibas2%2fIntegrated_Budget_and_Accounting_System", "_blank");
+
+});
